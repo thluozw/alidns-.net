@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlidnsApp", "AlidnsApp\AlidnsApp.csproj", "{339F5742-0848-4BEA-8AD5-1815E6EABA03}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D25488A-C8C2-44ED-B56C-72A565C24D55} = {4D25488A-C8C2-44ED-B56C-72A565C24D55}
+		{FB98728F-78EF-4083-A83A-0F2CEE9A6B81} = {FB98728F-78EF-4083-A83A-0F2CEE9A6B81}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aliyun-net-sdk-core.vs2017", "aliyun-net-sdk-core\aliyun-net-sdk-core.vs2017.csproj", "{FB98728F-78EF-4083-A83A-0F2CEE9A6B81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aliyun-net-sdk-alidns.vs2017", "aliyun-net-sdk-alidns\aliyun-net-sdk-alidns.vs2017.csproj", "{4D25488A-C8C2-44ED-B56C-72A565C24D55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{339F5742-0848-4BEA-8AD5-1815E6EABA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339F5742-0848-4BEA-8AD5-1815E6EABA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339F5742-0848-4BEA-8AD5-1815E6EABA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339F5742-0848-4BEA-8AD5-1815E6EABA03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB98728F-78EF-4083-A83A-0F2CEE9A6B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB98728F-78EF-4083-A83A-0F2CEE9A6B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB98728F-78EF-4083-A83A-0F2CEE9A6B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB98728F-78EF-4083-A83A-0F2CEE9A6B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D25488A-C8C2-44ED-B56C-72A565C24D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D25488A-C8C2-44ED-B56C-72A565C24D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D25488A-C8C2-44ED-B56C-72A565C24D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D25488A-C8C2-44ED-B56C-72A565C24D55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A6AA30C-95AE-4517-9BC3-ECFE6A6B9F47}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
